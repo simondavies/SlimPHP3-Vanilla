@@ -1,5 +1,7 @@
-# SlimPHP 3 Vanilla implimenting Laravels Blade
-A simple base app, using the PHP framework [PHP Slim](http://www.slimframework.com/) at its heart, and implementing  [Laravel's Blade/View](https://github.com/illuminate/view).
+# SlimPHP 3 Vanilla
+### implimenting Laravels Blade view template and Laravel's Elixir
+
+A simple base app, using the PHP framework [PHP Slim](http://www.slimframework.com/) at its heart, and implementing  [Laravel's Blade/View](https://github.com/illuminate/view) templating and [Laravel's Elixir](https://github.com/laravel/elixir) gulp https://github.com/laravel/elixir.
 
 #### To Do's
 * More to add to this read me file.
