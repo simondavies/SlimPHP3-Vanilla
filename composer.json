@@ -1,0 +1,28 @@
+{
+    "name":             "simondavies/slimphp3-vanilla",
+    "description":      "A simple base app, using the PHP framework Slim at its heart, and implementing Laravel's Blade view and Elixir",
+    "keywords":         ["php", "slim", "laravel", "framework", "Eloquent"],
+    "homepage":         "https://github.com/simondavies/SlimPHP3-Vanilla",
+    "license":          "MIT",
+    "authors": [
+        {
+            "name":         "Simon Davies",
+            "email":        "simondavies@live.co.uk",
+            "homepage":     "http://www.simondavies.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "slim/slim": "^3.0",
+        "monolog/monolog": "^1.17",
+        "symfony/var-dumper": "^3.1",
+        "philo/laravel-blade": "^3.1",
+        "hiropeke/slim-blade-view": "^0.1.1",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    }
+}

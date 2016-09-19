@@ -1,0 +1,12 @@
+/vendor
+/node_modules
+composer.phar
+composer.lock
+.php_cs.cache
+.sass-cache
+.DS_Store
+**/*/.DS_Store
+Thumbs.db
+.env
+.smbdelete*
+/cache/views/

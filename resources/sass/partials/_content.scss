@@ -1,0 +1,31 @@
+main {
+    margin: 20px 10px;
+}
+
+h1 {
+    font-family: $fontFamily;
+    font-size: 22px;
+    line-height: 22px;
+    color: $baseFontColor;
+    letter-spacing: $letterSpacing;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: $fontFamily;
+    font-size: 18px;
+    line-height: 18px;
+    color: $baseFontColor;
+    letter-spacing: $letterSpacing;
+    text-transform: uppercase;
+}
+
+
+p {
+    font-family: $fontFamily;
+    font-weight: $baseFontRegular;
+    font-size: 14px;
+    line-height: 14px;
+    color: $baseFontColor;
+    letter-spacing: $letterSpacing;
+}

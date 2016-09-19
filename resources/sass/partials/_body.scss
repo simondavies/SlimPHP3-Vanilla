@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $fontFamily;
+    font-size: $baseFontSize;
+    line-height: $baseLineHeight;
+    color: $baseFontColor;
+    background: white;
+    box-sizing: border-box;
+}
+
+.site-wrapper {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: $siteWidth;
+    height: 100%;
+    position: relative;
+}

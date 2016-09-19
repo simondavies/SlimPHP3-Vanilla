@@ -1,0 +1,19 @@
+footer {
+    .wrapper {
+        padding: 20px;
+        text-align: center;
+        font-family: inherit;
+        text-transform: uppercase;
+        border-top: 1px $lightGrey solid;
+        a:link, a:visited, a:active {
+            text-decoration: none;
+            color: $baseLinkColor;
+            font-size: 12px;
+            line-height: 14px;
+            @include transition(color $transitionSpeed);
+        }
+        a:hover, a:hover:visited {
+            color: $baseLinkHoveColor;
+        }
+    }
+}

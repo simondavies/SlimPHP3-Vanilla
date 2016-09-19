@@ -1,0 +1,14 @@
+nav {
+    padding: 20px;
+    text-align: center;
+    font-family: inherit;
+    text-transform: uppercase;
+    a:link, a:visited, a:active {
+        text-decoration: none;
+        color: $lightFontColor;
+        @include transition(color $transitionSpeed);
+    }
+    a:hover, a:hover:visited {
+        color: $baseLinkColor;
+    }
+}

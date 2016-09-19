@@ -1,0 +1,45 @@
+
+
+/**
+ * Typography
+ */
+$fontFamily : Arial, Helvetica, sans-serif;
+$baseFontThin : 300;
+$baseFontRegular : 400;
+$baseFontBold : 600;
+$baseFontSize : 16px;
+$baseLineHeight : 18px;
+$letterSpacing : 1px;
+
+/**
+ * Colours
+ */
+$baseFontColor : #555;
+$darkFontColor : $baseFontColor;
+$lightFontColor : white;
+$grey: #a1a1a1;
+$lightGrey : #e1e1e1;
+
+
+$baseLinkColor: #8c2d5c;
+$baseLinkHoveColor: #a1a1a1;
+$borderLineColour : $grey;
+
+//-- backgrounds
+$baseBackgroundColor : white;
+$darkBackgroundColor : #444;
+$footerBackgroundColor : #555;
+
+
+$messageTxtError : #c7254e;
+$messageTxtSuccess : #3c763d;
+$messageInfoBack : #fcf8e3;
+$messageSuccessBack : #dff0d8;
+
+/**
+ * sizes
+ */
+$siteWidth : 1020px;
+$borderRadius: 3px;
+
+$transitionSpeed : 500ms;

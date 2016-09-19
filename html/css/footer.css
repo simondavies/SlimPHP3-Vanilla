@@ -1,0 +1,29 @@
+/**
+ * Typography
+ */
+/**
+ * Colours
+ */
+/**
+ * sizes
+ */
+/* line 2, ../../resources/sass/partials/_footer.scss */
+footer .wrapper {
+  padding: 20px;
+  text-align: center;
+  font-family: inherit;
+  text-transform: uppercase;
+  border-top: 1px #e1e1e1 solid; }
+  /* line 8, ../../resources/sass/partials/_footer.scss */
+  footer .wrapper a:link, footer .wrapper a:visited, footer .wrapper a:active {
+    text-decoration: none;
+    color: #8c2d5c;
+    font-size: 12px;
+    line-height: 14px;
+    -moz-transition: color 500ms;
+    -o-transition: color 500ms;
+    -webkit-transition: color 500ms;
+    transition: color 500ms; }
+  /* line 15, ../../resources/sass/partials/_footer.scss */
+  footer .wrapper a:hover, footer .wrapper a:hover:visited {
+    color: #a1a1a1; }

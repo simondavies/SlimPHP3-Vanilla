@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "jquery": "^3.1.0",
+    "laravel-elixir": "^6.0.0-10",
+    "laravel-elixir-sass-compass": "^0.5.0",
+    "laravel-elixir-webpack-official": "^1.0.4",
+    "normalize.css": "^4.1.1"
+  }
+}
